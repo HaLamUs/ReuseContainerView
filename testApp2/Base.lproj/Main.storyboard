@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="855" y="1361"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="WQ7-wg-lnp">
             <objects>
-                <viewController id="dHJ-we-R0w" sceneMemberID="viewController">
+                <viewController id="dHJ-we-R0w" customClass="ViewController2" customModule="testApp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h1q-M9-nWp"/>
                         <viewControllerLayoutGuide type="bottom" id="fzr-Bt-rnb"/>
@@ -66,8 +66,27 @@
                     <view key="view" contentMode="scaleToFill" id="SdV-8c-ZWC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gY4-Bf-vOI">
+                                <rect key="frame" x="0.0" y="467" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="V2Q-xW-a2T"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="pI0-10-Ly5" kind="embed" id="WDz-wO-Nso"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gY4-Bf-vOI" firstAttribute="leading" secondItem="SdV-8c-ZWC" secondAttribute="leading" id="DwR-ea-zpf"/>
+                            <constraint firstItem="fzr-Bt-rnb" firstAttribute="top" secondItem="gY4-Bf-vOI" secondAttribute="bottom" id="UiA-3t-tk7"/>
+                            <constraint firstAttribute="trailing" secondItem="gY4-Bf-vOI" secondAttribute="trailing" id="y3E-vI-fAl"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="container" destination="gY4-Bf-vOI" id="cUf-dT-ahF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7iJ-dI-oxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,7 +133,21 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFA-Pf-2sw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2046" y="1680"/>
+            <point key="canvasLocation" x="2447" y="1827"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ofC-3i-eaB">
+            <objects>
+                <viewController id="pI0-10-Ly5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dcr-vs-SPO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eei-JI-hls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2446" y="1360"/>
         </scene>
     </scenes>
 </document>

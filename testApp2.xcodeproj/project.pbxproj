@@ -16,6 +16,8 @@
 		EB51D1811EA616050039659B /* testApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D1801EA616050039659B /* testApp2UITests.swift */; };
 		EB51D18F1EA6168C0039659B /* TestContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */; };
 		EB51D1901EA6168C0039659B /* TestContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */; };
+		EB51D1921EA617A60039659B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D1911EA617A60039659B /* ViewController2.swift */; };
+		EB51D1931EA617A60039659B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D1911EA617A60039659B /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		EB51D1801EA616050039659B /* testApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp2UITests.swift; sourceTree = "<group>"; };
 		EB51D1821EA616050039659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestContainerViewController.swift; sourceTree = "<group>"; };
+		EB51D1911EA617A60039659B /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 				EB51D1621EA616050039659B /* ViewController.swift */,
 				EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */,
 				EB51D1641EA616050039659B /* Main.storyboard */,
+				EB51D1911EA617A60039659B /* ViewController2.swift */,
 				EB51D1671EA616050039659B /* Assets.xcassets */,
 				EB51D1691EA616050039659B /* LaunchScreen.storyboard */,
 				EB51D16C1EA616050039659B /* Info.plist */,
@@ -265,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB51D18F1EA6168C0039659B /* TestContainerViewController.swift in Sources */,
+				EB51D1921EA617A60039659B /* ViewController2.swift in Sources */,
 				EB51D1631EA616050039659B /* ViewController.swift in Sources */,
 				EB51D1611EA616050039659B /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +281,7 @@
 			files = (
 				EB51D1901EA6168C0039659B /* TestContainerViewController.swift in Sources */,
 				EB51D1761EA616050039659B /* testApp2Tests.swift in Sources */,
+				EB51D1931EA617A60039659B /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

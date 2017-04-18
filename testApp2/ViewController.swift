@@ -8,18 +8,37 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, ContainerDelegate {
+  
+  @IBOutlet weak var container: UIView!
+  
+  var childVC: TestContainerViewController?
+  
+  
+  @IBAction func touchUpButton(_ sender: UIButton) {
+    //    childVC?.delegate
+    //    childVC?.testLabel.text = "lam"
+  }
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+    childVC = storyBoard.instantiateViewController(withIdentifier: "test") as? TestContainerViewController
+    childVC?.delegate = self
+    
+    self.addChildViewController(childVC!)
+    childVC?.view.frame = CGRect(x: 0, y: 0, width: self.container.frame.size.width, height: self.container.frame.size.height)
+    container.addSubview(childVC!.view)
+    childVC?.didMove(toParentViewController: self)
+    
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  func testContainer() {
+    print("")
   }
-
-
+  
+  
 }
 

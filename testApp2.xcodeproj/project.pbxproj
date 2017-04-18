@@ -14,6 +14,8 @@
 		EB51D16B1EA616050039659B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB51D1691EA616050039659B /* LaunchScreen.storyboard */; };
 		EB51D1761EA616050039659B /* testApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D1751EA616050039659B /* testApp2Tests.swift */; };
 		EB51D1811EA616050039659B /* testApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D1801EA616050039659B /* testApp2UITests.swift */; };
+		EB51D18F1EA6168C0039659B /* TestContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */; };
+		EB51D1901EA6168C0039659B /* TestContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		EB51D17C1EA616050039659B /* testApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB51D1801EA616050039659B /* testApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp2UITests.swift; sourceTree = "<group>"; };
 		EB51D1821EA616050039659B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				EB51D1601EA616050039659B /* AppDelegate.swift */,
 				EB51D1621EA616050039659B /* ViewController.swift */,
+				EB51D18E1EA6168C0039659B /* TestContainerViewController.swift */,
 				EB51D1641EA616050039659B /* Main.storyboard */,
 				EB51D1671EA616050039659B /* Assets.xcassets */,
 				EB51D1691EA616050039659B /* LaunchScreen.storyboard */,
@@ -193,6 +197,7 @@
 				TargetAttributes = {
 					EB51D15C1EA616050039659B = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = LR8XGHFLF8;
 						ProvisioningStyle = Automatic;
 					};
 					EB51D1701EA616050039659B = {
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB51D18F1EA6168C0039659B /* TestContainerViewController.swift in Sources */,
 				EB51D1631EA616050039659B /* ViewController.swift in Sources */,
 				EB51D1611EA616050039659B /* AppDelegate.swift in Sources */,
 			);
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB51D1901EA6168C0039659B /* TestContainerViewController.swift in Sources */,
 				EB51D1761EA616050039659B /* testApp2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LR8XGHFLF8;
 				INFOPLIST_FILE = testApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gotadi.com.testApp2;
@@ -426,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LR8XGHFLF8;
 				INFOPLIST_FILE = testApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gotadi.com.testApp2;
